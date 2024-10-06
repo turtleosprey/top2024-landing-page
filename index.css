@@ -12,44 +12,46 @@ body{
 .header{
   display: flex;
   flex-flow: column wrap;
-  flex: 1 1 auto;
-  
-  background-color: rgb(255, 255, 176);
-  color: lightcoral;
 
-  padding: 25px 50px;
+  background-color: darkkhaki;
+  padding: 50px 100px;
 }
+.header nav{
+  display: flex;
+  flex-flow: row wrap;
 
-.nav{
+  color: white;
+}
+.header nav p{
   display: flex;
   flex-flow: row wrap;
   flex: 1;
 }
-.nav .right{
+.header nav ul{
   display: flex;
   flex-flow: row wrap;
   flex: 1;
   justify-content: flex-end;
-  align-content: center;
   gap: 20px;
+
+  list-style-type: none;
 }
-.nav .right a{
-  color: lightcoral;
-  font-size: 24px;
-  font-weight: bold;
+.header nav ul a{
+  color: white;
   text-decoration: none;
 }
-.nav .left{
-  display: flex;
-  flex-flow: row wrap;
-  flex: 1;
-  align-content: center;
-}
-.nav .left #logo-title{
-  display: flex;
-  flex-flow: row wrap;
-  align-content: center;
 
-  font-size: 24px;
-  font-weight: bold;
+
+.header .featured{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.header .featured .left{
+  display: flex;
+  flex: 1 1 0;
+}
+.header .featured .right{
+  display: flex;
+  flex: 1 1 0;
 }
