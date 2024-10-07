@@ -6,6 +6,7 @@
 body{
   display: flex;
   flex-flow: column wrap;
+  gap: 20px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -123,7 +124,7 @@ body{
   flex-flow: row wrap;
   justify-content: center;
   flex: 1 1 0;
-  gap: 50px;
+  gap: 75px;
 }
 .body .card-container .card{
   display: flex;
@@ -150,4 +151,25 @@ body{
   display: flex;
   color: rgb(245, 188, 45);
   font-weight: bold;
+}
+
+.quote{
+  display: flex;
+  flex-flow: column wrap;
+  gap: 20px;
+
+  background-color: crimson;
+  padding: 100px;
+}
+.quote #quote{
+  color: rgb(254, 208, 90);
+  font-size: 35px;
+  font-weight: bolder;
+}
+.quote #from{
+  text-align: end;
+
+  color: rgb(254, 208, 90);
+  font-size: 35px;
+  font-weight: bolder;
 }
