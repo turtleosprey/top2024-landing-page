@@ -201,3 +201,16 @@ body{
   font-size: 15px;
   font-weight: bolder;
 }
+
+footer{
+  display: flex;
+  flex-flow: column wrap;
+  background-color: rgb(245, 188, 45);
+  padding: 25px 100px;
+}
+footer p{
+  align-self: center;
+  color: cornsilk;
+  font-size: large;
+  font-weight: bolder;
+}
